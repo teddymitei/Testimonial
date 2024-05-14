@@ -13,3 +13,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.testimonial{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.testimonial-text{
+    background: #ff0058;
+    color: #fff;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
