@@ -38,3 +38,17 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.user-text .fa-solid{
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.user-text span{
+    display: block;
+    font-size: 13px;
+    margin-top: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
