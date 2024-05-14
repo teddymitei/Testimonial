@@ -71,9 +71,19 @@
 
 .user-text.active-text{
     display: block;
+    animation: moveup 0.5s linear forwards;
 }
 
 .user-pic.active-pic{
     width: 100px;
     border: 3px solid #ff0058;
+}
+
+@keyframes moveup {
+    0%{
+        margin-top: 25px;
+    }
+    100%{
+        margin-top: 0;
+    }
 }
